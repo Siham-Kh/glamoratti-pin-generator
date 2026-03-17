@@ -98,3 +98,85 @@ Those are now **searchable queries that lead directly to your affiliate links.**
 
 ### Installation
 ```bash
+# Clone the repo
+git clone https://github.com/Siham-Kh/glamoratti-pin-generator.git
+cd glamoratti-pin-generator
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.local.example .env.local
+# Add your OpenAI API key to .env.local
+
+# Run locally
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Environment Variables
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+---
+
+## 🚀 Deploy to Vercel
+
+The fastest way to deploy:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Siham-Kh/glamoratti-pin-generator)
+
+Or manually:
+1. Push to GitHub
+2. Import repo at [vercel.com/new](https://vercel.com/new)
+3. Add `OPENAI_API_KEY` in Environment Variables
+4. Deploy ✅
+
+---
+
+## 📖 How to Use
+
+1. **Select your board** — choose the niche you're pinning to
+2. **Set your geo target** — national or city-level targeting
+3. **Pick season & price range** — for seasonal keyword opportunities
+4. **Find trending products** — live search for what's hot on Amazon + Pinterest right now
+5. **Run keyword analysis** — see volume, competition, and opportunity scores
+6. **Generate your pin** — title, description, hashtags, and AI queries ready to copy-paste
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have ideas for improving the keyword scoring, adding new niches, or improving the AI prompts:
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/better-keywords`)
+3. Commit your changes (`git commit -m 'Add better keyword scoring'`)
+4. Push to the branch (`git push origin feature/better-keywords`)
+5. Open a Pull Request
+
+---
+
+## ⭐ Show Your Support
+
+If this tool helps your Pinterest affiliate strategy, **give it a star!** It helps others find it and motivates continued development.
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify, and distribute.
+
+---
+
+## 👩‍💻 Built By
+
+**Glamoratti Finds** — luxury glam Amazon finds that look expensive.
+
+Follow on Pinterest: [@GlamorattiFinds](https://www.pinterest.com/GlamorattiFinds/)
+
+---
+
+_Made with 💗 for Pinterest affiliates who are done guessing._
